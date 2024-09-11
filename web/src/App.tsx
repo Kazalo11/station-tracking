@@ -50,7 +50,9 @@ const StationListPage: React.FC = () => {
   return (
     <>
       <Form.Group className="mt-3">
-        <Form.Label>Select the stations you have been to before</Form.Label>
+        <Form.Label>
+          Select the stations you have been to before in London
+        </Form.Label>
         <Typeahead
           id="basic-typeahead-multiple"
           labelKey="name"
